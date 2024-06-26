@@ -1,0 +1,71 @@
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+body {
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/7135121/pexels-photo-7135121.jpeg?cs=srgb&dl=pexels-codioful-7135121.jpg&fm=jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: rgba(151, 151, 151, 0.34);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header li a:hover{
+
+    font-weight: bold;
+
+}
+#cart {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    size: 50px;
+    top: 70px;
+}
+
+#div1 {
+    background-color: grey;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top:50vh;
+    left:0;
+}
+#w {
+    top:40px;
+    position: relative;
+}
